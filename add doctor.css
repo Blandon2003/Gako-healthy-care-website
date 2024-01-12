@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 400px;
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+
+.form header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.input-box input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.input-box input[type="submit"]:hover {
+    background: #45a049;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
